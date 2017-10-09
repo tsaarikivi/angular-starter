@@ -1,0 +1,22 @@
+{
+  "name": "ng-firestore",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Tero Saarikivi <saarikivit@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src/assets/bower_components"
+  ],
+  "dependencies": {
+    "app-layout": "PolymerElements/app-layout#^2.0.2",
+    "paper-progress": "PolymerElements/paper-progress#^2.0.1"
+  }
+}

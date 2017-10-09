@@ -1,0 +1,19 @@
+h4 {
+  text-align: center;
+}
+
+.suggestions {
+  padding: 8px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+}
+
+.inner {
+  display: block;
+  box-sizing: border-box;
+}

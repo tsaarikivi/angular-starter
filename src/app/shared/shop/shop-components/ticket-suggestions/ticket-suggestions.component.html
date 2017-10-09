@@ -1,0 +1,8 @@
+<section>
+  <h4 *ngIf="title">{{title}}</h4>
+  <div class="suggestions">
+    <div class="inner">
+      <app-ticket-type-item *ngFor="let ticketType of ticketTypes | async" [ticketType]="ticketType"></app-ticket-type-item>
+    </div>
+  </div>
+</section>

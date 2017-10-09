@@ -1,0 +1,15 @@
+<span class="ticket-container">
+  <div class="ticket">
+    <div class="title">
+      <h5>{{ticketType.title}}</h5>
+    </div>
+    <div class="description">
+      <ul *ngIf="ticketType.description">
+        <li *ngFor="let text of ticketType.description">{{text}}</li>
+      </ul>
+    </div>
+    <div class="action">
+      <button>Add</button>
+    </div>
+  </div>
+</span>
